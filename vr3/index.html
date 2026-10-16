@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bernardo | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="cabeçalio">
+
+        <div id="my">
+            <a href="#pg1">Bernardo<samp>.</samp>Matos Campos</a>
+        </div>
+
+        <article id="headerLinks">
+
+            <a href="#pg1" data-i18n="navHome">Home</a>
+            <a href="#sobre" data-i18n="navAbout">Sobre</a>
+            <a href="#projetos" data-i18n="navProjects">Projetos</a>
+            <a href="#contato" data-i18n="navContact">Contato</a>
+
+            <button id="idioma" type="button" data-i18n-aria="langAria" data-i18n-title="langAria">
+                <span data-lang="pt">PT</span>
+                <span data-lang="en">EN</span>
+            </button>
+
+            <label id="troca">
+                <input id="mode" type="checkbox" data-i18n-aria="themeAria">
+                <span id="deslize"></span>
+            </label>
+
+        </article>
+
+    </header>
+
+
+    <div id="tudo">
+
+        <canvas id="grid"></canvas>
+
+        <main id="pg1">
+
+            <div id="disponivel">
+                <samp></samp>
+                <span data-i18n="available">Disponível para novos projetos</span>
+            </div>
+
+            <h2 data-i18n="role">Desenvolvedor</h2>
+
+            <h1>Bernardo de Matos Campos</h1>
+
+            <h3 data-i18n="heroText">
+                Sou apaixonado por tecnologia e programação e estou sempre buscando aprender e evoluir. Gosto de
+                transformar ideias em projetos e explorar diferentes áreas do desenvolvimento. Aqui você pode conhecer
+                um pouco mais sobre mim, minhas habilidades e os projetos que venho desenvolvendo.
+            </h3>
+
+            <div class="botoes">
+
+                <a href="#projetos" class="btn btn-verde" data-i18n="btnProjects">
+                    Ver projetos
+                </a>
+
+                <a href="#contato" class="btn btn-outline" data-i18n="btnContact">
+                    Contato
+                </a>
+
+            </div>
+
+            <div class="redes-sociais">
+
+                <a href="https://github.com/bcampos13" aria-label="GitHub">
+                    GH
+                </a>
+
+                <a href="https://www.linkedin.com/in/bernardo-matos-campos-900a4b425/?isSelfProfile=true"
+                    aria-label="LinkedIn">
+                    in
+                </a>
+
+                <a href="https://www.instagram.com/be_mcampos/" aria-label="Instagram">
+                    @
+                </a>
+
+            </div>
+
+        </main>
+
+
+        <section id="sobre">
+
+            <div class="foto">
+
+                <span class="foto-texto">
+                    BM
+                </span>
+
+                <img src="foto-bernardo.jpg" alt="Foto de Bernardo de Matos Campos" class="foto-img"
+                    data-i18n-alt="photoAlt">
+
+            </div>
+
+            <h2 class="titulo" data-i18n="aboutTitle">
+                Sobre mim
+            </h2>
+
+            <p class="texto" data-i18n="aboutP1">
+                Sou estudante do Ensino Médio Técnico em Informática no Cotemig, em Belo Horizonte, com previsão de
+                conclusão em dezembro de 2027. Ao longo da minha formação, venho desenvolvendo conhecimentos em lógica
+                de programação, com prática em C#, HTML, CSS, JavaScript e MySQL, além de fundamentos sólidos de
+                hardware, software e banco de dados.
+            </p>
+
+            <p class="texto" data-i18n="aboutP2">
+                Tenho domínio do pacote Office e boa capacidade de comunicação, organização e trabalho em equipe. Sou
+                uma pessoa curiosa, com facilidade de adaptação a novos desafios e vontade constante de aprender e
+                evoluir.
+            </p>
+
+            <p class="texto" data-i18n="aboutP3">
+                Atualmente, estou em busca da minha primeira oportunidade profissional na área de tecnologia. Este
+                portfólio reúne os projetos e conhecimentos que venho construindo ao longo da minha jornada de
+                aprendizado.
+            </p>
+
+            <div class="numeros">
+
+                <div class="item">
+
+                    <span class="numero" data-i18n="statYearNumber">
+                        2º
+                    </span>
+
+                    <span class="legenda" data-i18n="statYearLabel">
+                        ano no Cotemig
+                    </span>
+
+                </div>
+
+                <div class="item">
+
+                    <span class="numero">
+                        6
+                    </span>
+
+                    <span class="legenda" data-i18n="statTechLabel">
+                        Tecnologias
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="tecnologias">
+
+                <p class="subtitulo" data-i18n="techLabel">
+                    Tecnologias
+                </p>
+
+                <div class="lista-tags">
+
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Git</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="projetos" class="projetos">
+
+            <p class="subtitulo" data-i18n="projectsLabel">
+                Meus Trabalhos
+            </p>
+
+            <h2 class="titulo" data-i18n="projectsTitle">
+                Projetos
+            </h2>
+
+            <p class="desc" data-i18n="projectsDesc">
+                Explore meus principais trabalhos e acompanhe minha evolução prática no desenvolvimento de sistemas e
+                páginas web.
+            </p>
+
+            <div class="lista-projetos">
+
+                <article class="card">
+
+                    <img src="rpg.jpg" alt="Capa do projeto RPG de Texto" class="capa" data-i18n-alt="p1Alt">
+
+                    <div class="info">
+
+                        <h3 data-i18n="p1Title">
+                            RPG de Texto
+                        </h3>
+
+                        <p data-i18n="p1Desc">
+                            Projeto de RPG de texto desenvolvido em C#, com foco em lógica de programação e
+                            Programação Orientada a Objetos (POO).
+                        </p>
+
+                        <span class="usei">
+                            C#
+                        </span>
+
+                        <a href="https://github.com/lxzinxs/projeto_rpg_texto" class="link-gh">
+                            GitHub &rarr;
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img src="landing.png" alt="Capa do projeto Landing Page" class="capa" data-i18n-alt="p2Alt">
+
+                    <div class="info">
+
+                        <h3 data-i18n="p2Title">
+                            Landing Page
+                        </h3>
+
+                        <p data-i18n="p2Desc">
+                            Landing page simples feita com HTML, CSS e JavaScript, com o objetivo de aprender a criar
+                            páginas web e praticar design.
+                        </p>
+
+                        <span class="usei">
+                            HTML, CSS, JS
+                        </span>
+
+                        <a href="https://github.com/bcampos13/landin-page" class="link-gh">
+                            GitHub &rarr;
+                        </a>
+                    </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img src="display.png" alt="Capa do projeto Display" class="capa" data-i18n-alt="p3Alt">
+
+                    <div class="info">
+
+                        <h3 data-i18n="p3Title">
+                            Projeto Display
+                        </h3>
+
+                        <p data-i18n="p3Desc">
+                            Projeto feito com HTML e CSS, com o objetivo de aprender a criar páginas web e design, com
+                            foco na propriedade display do CSS (Flexbox).
+                        </p>
+
+                        <span class="usei">
+                            HTML, CSS
+                        </span>
+
+                        <a href="https://github.com/bcampos13/site-flex" class="link-gh">
+                            GitHub &rarr;
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="contato" class="contato">
+
+            <p class="subtitulo" data-i18n="navContact">
+                Contato
+            </p>
+
+            <h2 class="titulo" data-i18n="contactTitle">
+                Vamos conversar?
+            </h2>
+
+            <p class="desc" data-i18n="contactDesc">
+                Tem um projeto em mente, uma oportunidade ou só quer trocar uma ideia? Envie uma mensagem e eu
+                retornarei o mais breve possível.
+            </p>
+
+            <form class="form">
+
+                <input type="text" placeholder="Seu nome" data-i18n-placeholder="phName" required>
+
+                <input type="email" placeholder="Seu e-mail" data-i18n-placeholder="phEmail" required>
+
+                <input type="tel" id="telefone" name="telefone" placeholder="+55 31 91234-5678" maxlength="17"
+                    pattern="\+\d{2} \d{2} \d{5}-\d{4}" title="Formato: +55 31 91234-5678"
+                    data-i18n-title="phoneTitle" required>
+
+                <textarea placeholder="Sua mensagem" data-i18n-placeholder="phMessage" rows="5" required></textarea>
+
+                <button type="submit" class="btn-enviar" data-i18n="send">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <footer id="rodape">
+
+            <div class="redes-rodape">
+
+                <a href="https://github.com/bcampos13" target="_blank" rel="noopener" aria-label="GitHub">
+                    GH
+                </a>
+
+                <a href="https://www.linkedin.com/in/bernardo-matos-campos-900a4b425/" target="_blank"
+                    rel="noopener" aria-label="LinkedIn">
+                    in
+                </a>
+
+                <a href="https://www.instagram.com/be_mcampos/" target="_blank" rel="noopener"
+                    aria-label="Instagram">
+                    @
+                </a>
+
+                <span class="email">
+                    bernardocampos4815k@gmail.com
+                </span>
+
+            </div>
+
+            <p class="copy" data-i18n="copy">
+                &copy; 2026 Bernardo Matos Campos. Todos os direitos reservados.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
